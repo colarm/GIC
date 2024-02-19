@@ -6,7 +6,6 @@
   <meta charset="utf-8" />
   <title>About Haicheng</title>
   <style>
-
     body {
       margin: 0;
     }
@@ -16,6 +15,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      min-height: 100vh;
       font-family: Arial, Helvetica, sans-serif;
       background: linear-gradient(to right bottom, #eff9ff, #f9ffee);
       background-attachment: fixed;
@@ -38,7 +38,7 @@
       justify-content: space-between;
       align-items: center;
       width: 60rem;
-      height: 400rem;
+      height: 56rem;
       background-color: #fefffb80;
       margin: 0 0 4rem;
       border: 0.2rem solid #ffffff;
@@ -57,15 +57,34 @@
       width: 30%;
       height: 100%;
       background-color: #1b408b;
+      color: #eff9ff;
+      font-size: 1.2rem;
+      padding: 1.6rem;
     }
 
     .right-information {
       width: 70%;
       height: 100%;
       background-color: #fdffff;
-      padding: 1rem;
+      padding: 1.6rem;
     }
 
+    .card {
+      background-color: #ffffff40;
+      margin: 1rem;
+      border-radius: 1rem;
+      overflow: hidden;
+    }
+
+    .card-head {
+      color: #041a27;
+      padding: 0.4rem 1rem;
+    }
+
+    .card-body {
+      background-color: #f4f8ff;
+      padding: 0.4rem 1rem;
+    }
   </style>
 </head>
 
@@ -76,23 +95,54 @@
     </div>
     <div class="block">
       <div class="left-information">
-
+        <div class="card">
+          <div class="card-head">Name</div>
+          <div class="card-body">Haicheng Zhao</div>
+        </div>
+        <p>Name: Haicheng Zhao</p>
+        <p>E-mail: hccxhcxh@gmail.com</p>
+        <p>Phone Number: (+44)07827127116</p>
+        <p>Home Address: Room 2419, 145 Kelvinhaugh Street, Glasgow, G3 8EL</p>
       </div>
       <div class="right-information">
 
         <h2>Summary</h2>
+        <p>
+          Motivated and detail-oriented student with a passion for science and engineering, currently pursuing studies
+          at Glasgow
+          International College. Aiming to further develop skills in Software Development at the University of Glasgow.
+          Proficient
+          in Python, JavaScript, and C/C++, with extensive experience in web frontend and backend development. Strong
+          problem-solving abilities and a proactive team player.
+        </p>
+
         <hr />
-        <p>Motivated and detail-oriented student with a passion for science and engineering, currently pursuing studies at Glasgow
-        International College. Aiming to further develop skills in Software Development at the University of Glasgow. Proficient
-        in Python, JavaScript, and C/C++, with extensive experience in web frontend and backend development. Strong
-        problem-solving abilities and a proactive team player.</p>
 
         <h2>Education</h2>
-        <hr />
         <h3>Beijing University of Chemical Technology</h3>
         <p>Major: Chemical engineering</p>
         <p>Time: 9/2019 - 6/2023</p>
-        <p></p>
+        <h3>Glasgow International College</h3>
+        <p>Major: Science and engineering</p>
+        <p>Time: 9/2023 - 5/2024</p>
+
+        <hr />
+
+        <h2>Work Experience</h2>
+        <h3>Company: Longjingshi Semiconductor</h3>
+        <p>Position: Frontend and backend development</p>
+        <p>Time: 3/2023 - 6/2023</p>
+
+        <hr />
+
+        <h2>Skills</h2>
+        <p>
+        <p>Programming Languages: Python, JavaScript, C/C++</p>
+        <p>Web Development: Frontend (HTML, CSS, React.js), Backend (Node.js, flask)</p>
+        <p>Version Control: Git</p>
+        <p>Database Management: MySQL, PostgreSQL</p>
+        <p>Software Tools: Visual Studio Code</p>
+        </p>
       </div>
     </div>
   </div>

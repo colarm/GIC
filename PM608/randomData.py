@@ -7,7 +7,7 @@ def getRandom():
 
 seed(time())
 
-order = [False for i in range(457)]
+order = [False for i in range(456)]
 
 cnt = 0
 while cnt < 50:
