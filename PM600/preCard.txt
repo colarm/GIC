@@ -1,0 +1,51 @@
+I'm here
+Application PoD and medical DM
+ML is ss of AI
+build models learning from existing data
+p p r to make p or d on new dataset
+However, the calcu method of ML is diff from ...
+black-box issue, reducing transp...
+make ML is still hard to be acc by HC pro...s
+
+The aim: To explore meth.s for enhan.g interp..
+without perf..e sacrifice. 
+Methods were devided to 3 domains: . . .
+RQ: . . .
+
+Secondary, quantitative
+evaluates 3 dom ... accuracy, trust, and stability
+ofcourse, interp.. is also a major metric. 
+
+
+First Fig. 
+-> relationship b.tw.n interp and num of leaves
+more leaves means higher comlexity -> lower interp
+Since ano.. Fig. shows ... no signi.. diff among
+LR, DT, and RF. 
+So, model sim... is a good choice to ... 
+
+Second Fig.
+-> Diff local ... algo.. have diff characters. 
+ILIME -> balance
+LIME and SHAP -> efficiency
+Anchor -> compatible with .py .r .java
+
+Third Fig. 
+-> Less feature -> better accuracy
+I was surprised bcz: I tend ...
+However, ..research.. FS algo elaminate interfering .
+
+Conclusion
+MS reduce the interp. directly, 
+No signi. perf. sacrifice
+LIT: In general senario -> ILIME
+real-time: LIME, SHAP
+Java: Anchor
+FS: It's import. to choose an approprate FS algo
+reduce model feature signi. , elaminate interfering...
+
+As ... sec ... bias and reliable issue ... hard
+Challenge to build standard
+
+In chart shows executing time of var LI algo ...
+Mix CS and HC. 
